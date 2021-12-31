@@ -65,9 +65,9 @@
 	<body class="bg">
 		<script>
 			window.onload = function(e){if(sessionStorage.Queue==null){sessionStorage.Queue="";}else if(sessionStorage.Queue!=""){executependingqueue(sessionStorage.Queue);}};
-			window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Page Caching Started!!"};
+			window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Caching Halaman Dimulai!!"};
 			window.applicationCache.onprogress=function(a){document.getElementById("progress").innerHTML="Caching Status: "+(Math.round(100*(a.loaded/a.total)))+"% Completed"};
-			window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully!!";setTimeout(function(){document.getElementById("progress").innerHTML="Turn Off the Internet & Reopen the Page to Run the Exploit!!"; }, 1500);};
+			window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Cache sukses!!";setTimeout(function(){document.getElementById("progress").innerHTML="Matikan Internet & Buka lagi browser untuk proses exploit!!"; }, 1500);};
 		</script>
 		<h1 id="progress" class="titlehead">PS4 Jailbreak 9.00</h1><hr><br>
 		<input type="hidden" id="psip" value="localhost"/>
@@ -79,11 +79,11 @@
 			</td>
 			<tr>
 			<td align="center" colspan="3"><a href="#" class="button" onclick="ps4debug(); return false" style="width:29%">PS4 Debug</a>
-			<a href="#" class="button" onclick="webrte(); return false" style="width:29%">WebRTE</a>
+			<a href="#" class="button" onclick="gta138(); return false" style="width:29%">GTAV Mod 138</a>
 			<a href="#" class="button" onclick="disableupdates(); return false" style="width:29%">Disable Updates</a></td>
 			</tr>
 			<tr>
-			<td align="center" colspan="3"><a href="#" class="button" onclick="todex(); return false" style="width:29%">To-DEX</a>
+			<td align="center" colspan="3"><a href="#" class="button" onclick="dumper(); return false" style="width:29%">Dump Game</a>
 			</tr>
 			</table></div>
 	</body>
